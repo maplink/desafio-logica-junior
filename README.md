@@ -16,7 +16,7 @@ Ao realizar esse desafio, você se compromete a:
 
 2. Assuma um cubo semelhante ao do desenho abaixo, no entanto com 8 mini cubos em cada aresta. Se pintarmos todas as suas faces, quantos mini cubos terão pelo menos uma face pintada?
 
-[alt text] (https://raw.githubusercontent.com/maplink/desafio-logica-junior/master/121016-4x4x4-cube-175w.gif "Cubo 4x4")
+![alt text] (https://raw.githubusercontent.com/maplink/desafio-logica-junior/master/121016-4x4x4-cube-175w.gif "Cubo 4x4")
 
 3. Dado um array de inteiros ordenados, como encontrar a posição de determinado valor?
 
