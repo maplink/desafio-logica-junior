@@ -3,7 +3,7 @@ Desafio de lógica
 
 Esta página contém as informações referentes ao desafio de lógica para desenvolvedores juniors / assistentes
 
-## Código de honra
+### Código de honra
 
 Ao realizar esse desafio, você se compromete a:
 
