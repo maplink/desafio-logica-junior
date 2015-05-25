@@ -32,7 +32,35 @@ R. Cada aresta possui 8 mini cubos
 
 3. Dado um array de inteiros ordenados, como encontrar a posição de determinado valor?
 
+Implementado em Java
 
+{
+
+import java.util.Scanner;
+
+public class FindPos {	
+	
+	public static void main(String[] args) {
+		int[] i = {1,2,3,4,5,6};
+		int l = 0;
+		Scanner leia = new Scanner(System.in);
+		
+		System.out.println("Digite um número para efetuar a busca. {1,2,3,4,5,6}");
+		l = leia.nextInt();
+		
+		for (int c = 0; c < i.length; c++) {
+			if (l == i[c]) {
+				System.out.println("Número encontrado na posição: " + c);
+				break;
+			}
+			if (c == i.length - 1) {
+				System.out.println("Número não encontrado!");
+			}
+		}
+	}	
+}
+
+}
 
 3. Escreva um código para reverter uma string.
 
