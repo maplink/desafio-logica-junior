@@ -36,6 +36,40 @@ R. Cada aresta possui 8 mini cubos
 
 3. Escreva um código para reverter uma string.
 
+Implementado em Java
+
+{
+
+import java.util.Scanner;
+import java.util.Stack;
+
+public class InvString {
+	
+	public static void main(String[] args) {
+		
+		Scanner ler = new Scanner(System.in);
+		
+		System.out.println("Digite uma string");
+		String txt = ler.next();
+		
+		Stack s = new Stack();
+		
+		for (char c : txt.toCharArray()) {
+			s.push(c);
+		}
+		
+		String inv = "";
+		
+		while (!s.isEmpty()) {
+			inv += s.pop().toString();
+		}
+		
+		System.out.println("String invertida: " + inv);		
+	}
+}
+
+}
+
 ### Envio da solução
 
 Você pode realizar a implementação dos código na linguagem de programação de sua preferência. Use sua criatividade! 
